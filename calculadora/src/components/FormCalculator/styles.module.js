@@ -74,6 +74,7 @@ export const ContainerForm = styled.form`
   @media (max-width: 768px){
     height: 10vh;
     margin-left: 11%;
+    margin-top: 2%;
     h2 {
     margin-top: 0%;
     font-size: 20px;
