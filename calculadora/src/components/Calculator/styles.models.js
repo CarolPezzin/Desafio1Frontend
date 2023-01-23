@@ -14,6 +14,11 @@ export const ContainerCalculator = styled.div`
     height: 100%;
     margin-top: 4%;
 }
+
+  @media (max-width: 768px){
+    flex-direction: column-reverse;
+    height: 70.519vh;
+  }
 `
 export const ResultCard = styled.div`
   display: flex;
@@ -30,8 +35,7 @@ export const ResultCard = styled.div`
     
     margin-top: 38%;
     margin-left: 15%;
-    border-bottom: 2px solid 
-rgba(93, 156, 236, 1);
+    border-bottom: 2px solid rgba(93, 156, 236, 1);
     
     text-align: left;
     font-style: italic;
@@ -53,6 +57,20 @@ rgba(93, 156, 236, 1);
     font-style: italic;
     
     color: rgba(93, 156, 236, 1);
+  }
+
+  @media (max-width: 768px){
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    height: 30vh;
+    h2{ 
+    margin-top:8% ;
+    font-size: 12px;
+  }
+  p{    
+    font-size: 12px;
+  }
   }
 `
 

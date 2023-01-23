@@ -12,8 +12,8 @@ export const ContainerForm = styled.form`
   color: rgb(101, 101, 101);
 
   h2 {
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
 
     width: 100%;
 
@@ -69,6 +69,27 @@ export const ContainerForm = styled.form`
 
   button{
     display: none !important;
+  }
+
+  @media (max-width: 768px){
+    height: 10vh;
+    margin-left: 11%;
+    h2 {
+    margin-top: 0%;
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 10px;
+  }
+
+  input {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 9px;
+  }
   }
 `
 
